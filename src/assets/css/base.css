@@ -1,6 +1,7 @@
+/*引用通配的样式*/
 @import "./normalize.css";
 
-/*:root -> 获取根元素html*/
+/*:root -> 获取根元素html， --:为定义一些变量，其他样式用var(--来用)*/
 :root {
   --color-text: #666;
   --color-high-text: #ff5777;
